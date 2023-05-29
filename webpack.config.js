@@ -19,6 +19,7 @@ module.exports = {
     proxy: {
       "/api": "http://localhost:8081"
     },
+    hot: true,
     // TODO: 여기에 핫로딩을 설정하세요
   },
   module: {
